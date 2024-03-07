@@ -51,7 +51,6 @@ export default function Home({ products }: { products: Array<IProduct> }) {
                                 pageRangeDisplayed={5}
                                 pageCount={pageCount}
                                 previousLabel="<"
-                                renderOnZeroPageCount={null}
                             />
                         </div>   
                     </>

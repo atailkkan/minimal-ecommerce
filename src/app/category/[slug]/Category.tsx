@@ -58,7 +58,6 @@ export default function Category({ products }: { products: Array<IProduct> }) {
                                 pageRangeDisplayed={5}
                                 pageCount={pageCount}
                                 previousLabel="<"
-                                renderOnZeroPageCount={null}
                             />
                         </div>   
                     </>
