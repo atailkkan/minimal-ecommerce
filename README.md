@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Minimal E-Commerce App For Learning
 
-## Getting Started
+> This application is plain, minimal and simply coded. Do not use this application in your complete projects. Because it is coded for front-end developers who are just learning. If you want to use it in your own projects, you need to develop this application.
 
-First, run the development server:
+## NPM Packages And Fake API Used In App
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### API
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Dummy JSON](https://dummyjson.com/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Cookie
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [cookies-next](https://www.npmjs.com/package/cookies-next)
 
-## Learn More
+### UI
 
-To learn more about Next.js, take a look at the following resources:
+- [primereact](https://www.npmjs.com/package/primereact)
+- [primeicons](https://www.npmjs.com/package/primeicons)
+- [remixicon](https://www.npmjs.com/package/remixicon)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Pagination
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [react-paginate](https://www.npmjs.com/package/react-paginate)
 
-## Deploy on Vercel
+## Features Of App
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- List all products,
+- Get single product,
+- Search products,
+- Filter products by category,
+- pagination product list,
+- Add product to basket,
+- Clear basket.
