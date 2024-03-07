@@ -2,7 +2,7 @@
 
 > This application is plain, minimal and simply coded. Do not use this application in your complete projects. Because it is coded for front-end developers who are just learning. If you want to use it in your own projects, you need to develop this application.
 
-Demo is here ===> [minimal-ecommerce.buqa.app](https://minimal-ecommerce.buqa.app/)
+Demo is here ===> [minimal-ecommerce](https://minimal-ecommerce.buqa.app/)
 
 ## NPM Packages And Fake API Used In App
 
